@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght0300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primario: #ffffff;
+    --color-secundario: #ff3737;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2.3em;
+    color: var(--color-primario);
+    cursor: pointer;
+}
+
+.logo span{
+    color: var(--color-secundario);
+}
+
+.navegacion a{
+    font-size: 1.2em;
+    color: var(--color-primario);
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.navegacion a:hover{
+    color: var(--color-secundario);
+}
+
+.btn-bienvenida{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background-color: var(--color-secundario);
+    border-radius: 10px;
+    border: 2px solid var(--color-secundario);
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-bienvenida:hover{
+    color: var(--color-secundario);
+    background: transparent;
+}
+
+.Inicio{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(img/fondo-textura-hormigon-negro-grunge_53876-124541.avif);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.Contenido{
+    max-width: 500px;
+    color: var(--color-primario)
+}    
+
+.Contenido h2{
+font-size: 3em;
+}
+
+.Contenido h2 span{
+color: var(--color-secundario);
+}
+
+.Contenido h4{
+font-size: 2em;
+}
+
+.item{
+    max-width: 350px;
+    color: var(--color-primario)
+}    
+
+.item h3{
+font-size: 3em;
+}
+
+.item h3 span{
+color: var(--color-secundario);
+}
+
+.Item p{
+font-size: 600;
+}
